@@ -7,3 +7,8 @@ struct ligacao{
     struct cidade* destino;
     float distancia;
 };
+
+struct grafo{
+    struct ligacao* ligacao;
+    struct grafo* proximo;
+};
