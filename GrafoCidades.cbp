@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="grafo_cidades.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="grafo_cidades.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
