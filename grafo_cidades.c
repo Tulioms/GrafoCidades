@@ -27,3 +27,7 @@ Cidade* gfcdd_cdd_editar(Cidade* cdd, char nome[]){
     cdd->nome = nome;
     return cdd;
 }
+
+void gfcdd_cdd_imprime(Cidade* cdd){
+    printf("[CIDADE] Nome: %s",cdd->nome);
+}
