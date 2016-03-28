@@ -12,3 +12,7 @@ struct grafo{
     struct ligacao* ligacao;
     struct grafo* proximo;
 };
+
+Cidade* gfcdd_cdd_cria_vazia(){
+    return NULL;
+}
