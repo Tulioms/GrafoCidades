@@ -13,6 +13,12 @@ struct grafo{
     struct grafo* proximo;
 };
 
+Cidade* gfcdd_cdd_cria(char nome[]){
+    Cidade* cdd = (Cidade*) malloc(sizeof(Cidade));
+    cdd->nome = nome;
+    return cdd;
+}
+
 Cidade* gfcdd_cdd_cria_vazia(){
     return NULL;
 }
