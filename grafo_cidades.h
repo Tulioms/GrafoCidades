@@ -4,3 +4,4 @@ typedef struct grafo Grafo;
 
 Cidade* gfcdd_cdd_cria(char nome[]);
 Cidade* gfcdd_cdd_cria_vazia();
+Cidade* gfcdd_cdd_editar(Cidade* cdd, char nome[]);

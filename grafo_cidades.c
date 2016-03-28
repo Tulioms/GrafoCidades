@@ -22,3 +22,8 @@ Cidade* gfcdd_cdd_cria(char nome[]){
 Cidade* gfcdd_cdd_cria_vazia(){
     return NULL;
 }
+
+Cidade* gfcdd_cdd_editar(Cidade* cdd, char nome[]){
+    cdd->nome = nome;
+    return cdd;
+}
